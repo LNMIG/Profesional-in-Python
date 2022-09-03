@@ -16,8 +16,10 @@
 
 # Method THREE
 def remove_duplicate(with_duplicates):
-    without_duplicates = set(with_duplicates)
-    return list(without_duplicates)
+    # without_duplicates = set(with_duplicates)
+    # return list(without_duplicates)
+    return list(set(with_duplicates))
+
 
 def run():
     with_duplicates = [1, 1, 2, 2, 4]
